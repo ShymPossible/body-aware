@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="final.css">
+        <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+    </head>
+
+    <body>
+
+        <div id="totally" class="border">
+        <h1 class="personal">PLEASE SELCT A QUADRANT <br> OF YOUR BODY</h1>
+
+        <div class="hello">
+        
+        <div class="top-left" title="2"></div>
+        <div class="top-right" title="1"></div>
+        <div class="middle-left" title="3"></div>
+        
+        <div class="middle-right" title="4"></div>
+        <div class="bottom-left" title="6"></div>
+        <div class="bottom-right" title="5"></div>
+
+        </div>
+
+        <img class="full-body" src="HumanBody.jpg" alt="Human Body"> 
+        </div>
+
+        <div id="entry-box">
+            <h1 class="highlight">Hello</h1>
+            <form>
+                <input type="checkbox" name="happy" value="happy">Happy
+                <br>
+                <input type="checkbox" name="sad" value="sad">Sad
+                <br>
+                <input type="checkbox" name="angry" value="angry">Angry
+            </form>
+            <br>
+            <form id="first" class="first">
+                <label for="height"> Least</label>
+                <input id="number" type="range" name="height" min="1" max="5" step="1" 
+                oninput="updateTextInput(this.value);" onchange="updateTextInput(this.value);"/>
+                <label for="height"> Most</label>
+                <br>
+                <br>
+                <input type="text" class="number-box" id="textInput" value=""/>
+            </form>
+            <br>
+            <textarea rows="4" cols="50"></textarea>
+            <br>
+            <button class="submit-button" type="submit">Submit</button>
+        </div>
+
+
+
+    </body>
+    <script src="final.js"></script>
+
+    <script>
+        
+    </script>
+</html>
